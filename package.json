@@ -43,7 +43,7 @@
     "webpack-node-externals": "^2.5.0"
   },
   "scripts": {
-    "start": "npm-run-all --parallel webpack:*",
+    "start": "serve -s build",
     "dev": "npm-run-all --parallel webpack:*",
     "webpack:client": "webpack --config webpack.client.js --watch",
     "webpack:server": "webpack --config webpack.server.js --watch",
