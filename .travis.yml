@@ -1,4 +1,8 @@
 language: node_js
-
 node_js:
   - "12"
+deploy:
+  provider: heroku
+  app: hacker-news-model
+  api_key:
+    secure: F1hFx1pEvGu1+ROs+o+ur8wCAKH5QK3uBb8WxLRlWGmBY6Ci54rAOwA/mF+gKYYUo5lFbRJulNRTWKq/uMUtXqvIuAgVj/VNHG4iwgsOFX4PSqZI530odVqCvyNrTezMZ3f673CmvHsA/FNgz9gxc3v+LzHllxPeLkvzauemJPmsJoLh1eBrrGvmAsF4Iuk2XdmLaWZ5R9xKg/MCtlmRMN9fDAzQxjyESHHyajEF3qk1hQ4gSPZNU9r7oFrEl6glstod7JR8O3abxx+OhShxsED7Stfs2KuL6hZvQc5vI++WDTCFqaxQFM3V8Imc/9T2YsXAseSyUU5HCX9FrAY1C6NKBqQFKFZx1f7yI+8wK843gSht97P8Yo68W62+CDhoKmSINYsnUK6LTeeZHDpZPPU/3ryoBeP0SWcSxUIwpNdXJuhvSr4O3y+VN+t3RBnbGhTfVobmfVKQ0KhR4LGRUaJj1ax0r91fC6OuU1bf+YfbF1Ye01FcsnZ8o4uFrnymwyGanIG/e+kqZXrdu/cO+M40yeKt6HZyHqhfW8y29pEuvZOlV2BiqrWej++Pv/FvPk9W8HNM+8jkkVaoFtyw+RF/aajzlE87rUrH5xdATr9mcoR5DcMHDCjq9tbXSkRqhogoexPaQUdSmzF+i+GbQgzLiK1nRKKXsyP5+8go5QM=
