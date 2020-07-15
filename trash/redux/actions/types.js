@@ -1,0 +1,2 @@
+export const ITEMS_LOADING = "ITEMS_LOADING";
+export const FETCH_NEWS_FEED = "FETCH_NEWS_FEED";
